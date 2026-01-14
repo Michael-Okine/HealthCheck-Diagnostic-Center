@@ -1,0 +1,142 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* BODY */
+body {
+    background-color: #f4f6f9;
+    color: #333;
+    line-height: 1.7;
+}
+
+/* HEADER & NAV */
+header {
+    background-color: #0b5ed7;
+    padding: 15px 40px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* MAIN CONTENT */
+main {
+    padding: 40px 60px;
+}
+
+/* HERO / ABOUT SECTION */
+main section:first-child {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+    margin-bottom: 40px;
+}
+
+main section:first-child h1 {
+    color: #0b5ed7;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+main section:first-child p {
+    margin-bottom: 25px;
+    text-align: justify;
+    font-size: 15px;
+}
+
+main section:first-child img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+/* MISSION, VISION & VALUES */
+main section:nth-child(2) {
+    background-color: #eef2f7;
+    padding: 40px;
+    border-radius: 8px;
+}
+
+main section:nth-child(2) h2 {
+    color: #0b5ed7;
+    margin-bottom: 25px;
+    font-size: 26px;
+}
+
+main section:nth-child(2) h4 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #0b5ed7;
+}
+
+main section:nth-child(2) p {
+    font-size: 15px;
+}
+
+main section:nth-child(2) ul {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+main section:nth-child(2) ul li {
+    margin-bottom: 6px;
+    font-size: 15px;
+}
+
+main section:nth-child(2) img {
+    margin-top: 30px;
+    border-radius: 8px;
+    max-width: 100%;
+}
+
+/* FOOTER */
+footer {
+    background-color: #0b5ed7;
+    color: #ffffff;
+    padding: 40px 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+}
+
+footer h4 {
+    margin-bottom: 10px;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+footer ul li img {
+    filter: brightness(0) invert(1);
+}
+
+footer > p {
+    grid-column: 1 / -1;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 13px;
+}

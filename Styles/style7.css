@@ -1,0 +1,96 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* BODY */
+body {
+    background-color: #f4f6f9;
+    color: #333;
+    line-height: 1.7;
+}
+
+/* HEADER & NAVBAR (MATCHES OTHER PAGES) */
+header {
+    background-color: #0b5ed7;
+    padding: 15px 40px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* MAIN SECTION */
+section {
+    background-color: #ffffff;
+    padding: 50px 60px;
+    margin: 40px 60px;
+    border-radius: 8px;
+}
+
+/* HEADING */
+section h2 {
+    color: #0b5ed7;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+/* PARAGRAPH */
+section p {
+    font-size: 15px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+/* LIST SECTION */
+section ul {
+    margin-bottom: 25px;
+    margin-left: 20px;
+}
+
+section ul p {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+section ul li {
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+
+/* IMAGE */
+section img {
+    display: block;
+    margin: 20px auto 0 auto;
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    section {
+        margin: 20px;
+        padding: 30px;
+    }
+
+    section h2 {
+        font-size: 24px;
+    }
+}
